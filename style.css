@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    padding: 0px;
+    margin:0px;
+    height:100%
+}
+#LeftPanel{
+    flex:1;
+    height: fit-content;
+    background-color:rgb(237, 213, 153);
+}
+#RightPanel{
+    flex:1;
+    height: 100%;
+    background-color: whitesmoke;
+}
+#textbox{
+    width:100%;
+    height:100%;
+}
+.container{
+    background-color: rgb(167, 147, 96);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#checkbox {
+    margin: 2px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+#delTask{
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+}
+#button {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
